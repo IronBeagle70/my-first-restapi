@@ -1,0 +1,29 @@
+### Obteniendo todas las peliculas 
+GET http://localhost:3000/api/movies
+
+###Creando una nueva pelicula
+
+POST http://localhost:3000/api/movies
+Content-Type: application/json
+
+{
+    "title": "Indiana Jones",
+    "director": "George Lucas",
+    "year": "1989",
+    "rating": "9"
+}
+
+### Borrando peliculas
+# elimina del mayor ID al menor ID
+DELETE http://localhost:3000/api/movies/4
+
+### Actualizando peliculas
+PUT http://localhost:3000/api/movies/3
+Content-Type: application/json
+
+{
+    "title": "Toy Story",
+    "director": "Jhon Lasseter",
+    "year": "2004",
+    "rating": "9.7"
+}

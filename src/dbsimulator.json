@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "title":"Alien",
+        "director":"James Cameron",
+        "year":"1986",
+        "reating":"8.5"
+    },
+    {
+        "id":"2",
+        "title":"The Dark Knight",
+        "director":"Critopher Nolan",
+        "year":"2008",
+        "reating":"10"
+    },
+    {
+        "id":"3",
+        "title":"Star Wars: A new Hope",
+        "director":"George Lucas",
+        "year":"1977",
+        "reating":"9"
+    }
+]
